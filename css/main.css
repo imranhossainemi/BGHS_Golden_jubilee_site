@@ -2,35 +2,41 @@
 body {
     font-family: Poppins,sans-serif;
     font-size: 1.6rem;
-    padding: 0;
-    margin: 0 auto;
     color: rgba(4,51,51,.8);
     line-height: 2.6rem;
     max-width: 1440px;
+    margin: 0 auto !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: #1b273d;
 }
 
 h3 {
     font-size: 2.6rem;
-    line-height: 3.9000000000000004rem;
+    line-height: 3.9rem;
     line-height: 4rem;
 }
 
-h3, h4 {
+h3,
+h4 {
     font-family: Oswald,sans-serif;
     font-weight: 700;
+}
+
+header {
+    width: 100%;
 }
 
 #navbar-default {
     border: none;
     box-shadow: none;
-    background: rgba(27,39,61,.95);
-    position: fixed;
-    z-index: 9;
-    width: 100%;
+    background: hsla(219, 39%, 17%, 0.95);
 }
 
 .nav >li {
@@ -134,6 +140,8 @@ h3, h4 {
 
 .countdown{
     background-color: #FFF363;
+    width: 100%;
+    padding: 70px 0;
 }
 
 .countdown-left-info {
@@ -141,6 +149,9 @@ h3, h4 {
     width: 30%;
     text-align: center;
     padding: 4.2rem 1rem;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    box-shadow: -5px 10px 5px 4px #1b273d;
 }
 
 #demo {
